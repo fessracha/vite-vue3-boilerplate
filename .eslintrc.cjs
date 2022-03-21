@@ -48,7 +48,6 @@ module.exports = {
       "template": 120,
       "tabWidth": 2,
       "comments": 120,
-      "ignorePattern": "",
       "ignoreComments": false,
       "ignoreTrailingComments": false,
       "ignoreUrls": false,
@@ -57,6 +56,7 @@ module.exports = {
       "ignoreRegExpLiterals": false,
       "ignoreHTMLAttributeValues": false,
       "ignoreHTMLTextContents": false,
+      "ignorePattern": 'd="([\\s\\S]*?)"'
     }],
     'no-shadow': 'off',
     'no-use-before-define': 'off',
