@@ -23,13 +23,12 @@ import TheWelcome from './components/TheWelcome.vue';
 </template>
 
 <style>
-@import './assets/base.css';
+@import "./assets/base.css";
 
-#app {
+#app { /* stylelint-disable-line */
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
   font-weight: normal;
 }
 
@@ -45,13 +44,13 @@ header {
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: hsl(160deg 100% 37% / 100%);
   transition: 0.4s;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: hsl(160deg 100% 37% / 20%);
   }
 }
 
