@@ -5,8 +5,12 @@ module.exports = {
     'airbnb-base',
     'plugin:vue/vue3-essential',
     'eslint:recommended',
+    '@vue/typescript',
   ],
   rules: {
+    '@typescript-eslint/type-annotation-spacing': ['error', {
+      after: true,
+    }],
     'import/no-unresolved': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'import/no-extraneous-dependencies': 'off',
     'import/extensions': 'off',
@@ -23,7 +27,6 @@ module.exports = {
     'no-prototype-builtins': 'off',
     'no-unused-vars': 'off',
     'no-undef': 'off',
-    // 'unused-imports/no-unused-imports': 'warn',
     'vue/html-indent': ['warn', 2, {
       attribute: 1,
       baseIndent: 1,

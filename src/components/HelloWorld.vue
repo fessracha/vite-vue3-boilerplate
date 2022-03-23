@@ -1,4 +1,7 @@
-<script setup>
+<script setup lang="ts">
+const a: number = 123;
+console.log(a);
+
 defineProps({
   msg: {
     type: String,

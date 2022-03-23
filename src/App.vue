@@ -60,7 +60,7 @@ a,
     place-items: center;
   }
 
-  #app {
+  #app { /* stylelint-disable-line */
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
